@@ -1,5 +1,7 @@
 'use client';
-import { handleRegistration } from "@/app/actions/register.TS";
+
+
+import { handleRegistration } from "./actions/register";
 import { useState, useMemo } from 'react';
 // ... the rest of your imports follow below
 import {
