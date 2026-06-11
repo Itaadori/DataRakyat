@@ -1,6 +1,7 @@
 'use client';
-import { handleRegistration } from "./actions/register";
+import { handleRegistration } from "@/app/actions/register.TS";
 import { useState, useMemo } from 'react';
+// ... the rest of your imports follow below
 import {
   BarChart2, Menu, X, ArrowRight, MapPin, Users, BookOpen, TrendingUp,
   Smartphone, Globe, GraduationCap, Heart, Calendar, Clock, Tag,

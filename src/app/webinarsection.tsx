@@ -1,5 +1,7 @@
 "use client";
-import { handleRegistration } from "./actions/register";
+import { handleRegistration } from "@/app/actions/register.TS";
+
+// ... the rest of your imports follow below
 import { useState } from "react";
 import { Calendar, Clock, Users, Tag, X, CheckCircle, ChevronRight } from "lucide-react";
 
